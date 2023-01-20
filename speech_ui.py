@@ -24,7 +24,7 @@ def activate(phrase='activate'):
                 say('activated')
                 return True
             else:
-                say('what the fuck did you say to me?')
+                say('what the hell did you say to me?')
                 return False    
     except:
         print('listening')
