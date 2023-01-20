@@ -75,7 +75,7 @@ def loop():
                         find_app(search_term)
                     elif phrase2 in transcript.lower():
                         search_term = transcript.lower().split(phrase2)[-1]
-                        say(f'{search_term} would you prefer google search instead sir?')
+                        say(f'taking you to google search for {search_term} sir!')
                         google_search(search_term)
                     elif phrase3 in transcript.lower():
                         search_term = transcript.lower().split(phrase3)[-1]
